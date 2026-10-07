@@ -7,7 +7,7 @@ Comparison baseline images for numeric source/target pairs **0–999**. Previous
 | Method / setting | Required images | Published archive |
 | --- | ---: | --- |
 | AttackVLM / ViT-B/16 | 1,000 | Pending |
-| AttackVLM / ViT-B/32 | 1,000 | Pending |
+| AttackVLM / ViT-B/32 | 1,000 | [AttackVLM_B32.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/AttackVLM_B32.zip) |
 | AttackVLM / LAION ViT-G/14 | 1,000 | Pending |
 | AdvDiffVLM / ensemble | 1,000 | Pending |
 | SSA-CWA / ensemble | 1,000 | Pending |
