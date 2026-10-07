@@ -1,13 +1,15 @@
 {
-  "updated_utc": "2026-10-07T11:23:56Z",
+  "updated_utc": "2026-10-07T11:40:47Z",
   "settings": {
     "AttackVLM_B16": {
-      "images_present": 236,
+      "images_present": 1000,
       "expected": 1000,
-      "packaged": false
+      "packaged": true,
+      "archive": "AttackVLM_B16.zip",
+      "sha256": "5ccc6f6f0dad4799c0b4eccb9993992be340c1a696dde00fc4393f95056ca261"
     },
     "AttackVLM_B32": {
-      "images_present": 100,
+      "images_present": 228,
       "expected": 1000,
       "packaged": false
     },
@@ -17,7 +19,7 @@
       "packaged": false
     },
     "AdvDiffVLM_ensemble": {
-      "images_present": 102,
+      "images_present": 117,
       "expected": 1000,
       "packaged": false
     },
@@ -34,17 +36,17 @@
       "sha256": "514229b184f29e0d2ae10e3447e5341ff703af3e6ab805ed9e8d98dbd7eebc3c"
     },
     "M-Attack": {
-      "images_present": 106,
+      "images_present": 134,
       "expected": 1000,
       "packaged": false
     },
     "M-Attack-V2": {
-      "images_present": 100,
+      "images_present": 102,
       "expected": 1000,
       "packaged": false
     },
     "FOA-Attack/cluster_3": {
-      "images_present": 0,
+      "images_present": 1,
       "expected": 1000,
       "packaged": false
     },
