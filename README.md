@@ -12,7 +12,7 @@ Comparison baseline images for numeric source/target pairs **0–999**. Previous
 | AdvDiffVLM / ensemble | 1,000 | Pending |
 | SSA-CWA / ensemble | 1,000 | [SSA-CWA_ensemble.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/SSA-CWA_ensemble.zip) |
 | AnyAttack / released `coco_cos.pt` | 1,000 | [AnyAttack_official_B32.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/AnyAttack_official_B32.zip) |
-| M-Attack / ensemble | 1,000 | Pending |
+| M-Attack / ensemble | 1,000 | [M-Attack.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/M-Attack.zip) |
 | M-Attack-V2 / ensemble | 1,000 | Pending |
 | Original FOA / cluster 3 | 1,000 | Pending |
 | Original FOA / cluster 5 | 1,000 | Pending |
