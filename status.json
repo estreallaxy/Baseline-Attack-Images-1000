@@ -1,0 +1,57 @@
+{
+  "updated_utc": "2026-10-07T11:23:56Z",
+  "settings": {
+    "AttackVLM_B16": {
+      "images_present": 236,
+      "expected": 1000,
+      "packaged": false
+    },
+    "AttackVLM_B32": {
+      "images_present": 100,
+      "expected": 1000,
+      "packaged": false
+    },
+    "AttackVLM_Laion": {
+      "images_present": 100,
+      "expected": 1000,
+      "packaged": false
+    },
+    "AdvDiffVLM_ensemble": {
+      "images_present": 102,
+      "expected": 1000,
+      "packaged": false
+    },
+    "SSA-CWA_ensemble": {
+      "images_present": 100,
+      "expected": 1000,
+      "packaged": false
+    },
+    "AnyAttack_official_B32": {
+      "images_present": 1000,
+      "expected": 1000,
+      "packaged": true,
+      "archive": "AnyAttack_official_B32.zip",
+      "sha256": "514229b184f29e0d2ae10e3447e5341ff703af3e6ab805ed9e8d98dbd7eebc3c"
+    },
+    "M-Attack": {
+      "images_present": 106,
+      "expected": 1000,
+      "packaged": false
+    },
+    "M-Attack-V2": {
+      "images_present": 100,
+      "expected": 1000,
+      "packaged": false
+    },
+    "FOA-Attack/cluster_3": {
+      "images_present": 0,
+      "expected": 1000,
+      "packaged": false
+    },
+    "FOA-Attack/cluster_5": {
+      "images_present": 0,
+      "expected": 1000,
+      "packaged": false
+    }
+  }
+}
