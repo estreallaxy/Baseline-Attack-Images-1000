@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T10:04:17Z",
+  "updated_utc": "2026-10-08T10:09:22Z",
   "settings": {
     "AttackVLM_B16": {
       "images_present": 1000,
@@ -56,12 +56,12 @@
       "packaged": false
     },
     "FOA-Attack/cluster_3": {
-      "images_present": 809,
+      "images_present": 813,
       "expected": 1000,
       "packaged": false
     },
     "FOA-Attack/cluster_5": {
-      "images_present": 808,
+      "images_present": 812,
       "expected": 1000,
       "packaged": false
     }
