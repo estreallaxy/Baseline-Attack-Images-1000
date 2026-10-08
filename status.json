@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T13:18:00Z",
+  "updated_utc": "2026-10-08T13:23:05Z",
   "settings": {
     "AttackVLM_B16": {
       "images_present": 1000,
@@ -51,17 +51,17 @@
       "sha256": "7ce1d2dfc450d3b58d27e83813a35e21b0b7d08ec52664db468e2f77f22553db"
     },
     "M-Attack-V2": {
-      "images_present": 724,
+      "images_present": 728,
       "expected": 1000,
       "packaged": false
     },
     "FOA-Attack/cluster_3": {
-      "images_present": 934,
+      "images_present": 937,
       "expected": 1000,
       "packaged": false
     },
     "FOA-Attack/cluster_5": {
-      "images_present": 933,
+      "images_present": 936,
       "expected": 1000,
       "packaged": false
     }
