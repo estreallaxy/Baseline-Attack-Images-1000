@@ -1,5 +1,5 @@
 {
-  "updated_utc": "2026-10-08T17:12:38Z",
+  "updated_utc": "2026-10-08T17:17:44Z",
   "settings": {
     "AttackVLM_B16": {
       "images_present": 1000,
@@ -51,7 +51,7 @@
       "sha256": "7ce1d2dfc450d3b58d27e83813a35e21b0b7d08ec52664db468e2f77f22553db"
     },
     "M-Attack-V2": {
-      "images_present": 930,
+      "images_present": 938,
       "expected": 1000,
       "packaged": false
     },
