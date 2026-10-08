@@ -2,7 +2,7 @@
 
 Comparison baseline images for numeric source/target pairs **0–999**. Previously verified fixed-100 images (IDs 0, 10, …, 990) are reused for the other baselines; FOA is regenerated using the freshly cloned author repository.
 
-**Generation is in progress.** A method archive is published only after all 1,000 images pass validation. See [status.json](status.json) for the recorded snapshot. Existing counts for incomplete methods are not completion claims.
+**All baseline image collections are complete and verified.** A method archive is published only after all 1,000 images pass validation. See [status.json](status.json) for the recorded snapshot. Existing counts for incomplete methods are not completion claims.
 
 | Method / setting | Required images | Published archive |
 | --- | ---: | --- |
@@ -13,7 +13,7 @@ Comparison baseline images for numeric source/target pairs **0–999**. Previous
 | SSA-CWA / ensemble | 1,000 | [SSA-CWA_ensemble.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/SSA-CWA_ensemble.zip) |
 | AnyAttack / released `coco_cos.pt` | 1,000 | [AnyAttack_official_B32.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/AnyAttack_official_B32.zip) |
 | M-Attack / ensemble | 1,000 | [M-Attack.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/M-Attack.zip) |
-| M-Attack-V2 / ensemble | 1,000 | Pending |
+| M-Attack-V2 / ensemble | 1,000 | [M-Attack-V2.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/M-Attack-V2.zip) |
 | Original FOA / cluster 3 | 1,000 | [FOA-Attack_cluster_3.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/FOA-Attack_cluster_3.zip) |
 | Original FOA / cluster 5 | 1,000 | [FOA-Attack_cluster_5.zip](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/download/baselines-1000-v1/FOA-Attack_cluster_5.zip) |
 
