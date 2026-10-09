@@ -1,0 +1,203 @@
+{
+  "audited_utc": "2026-10-09T02:40:16Z",
+  "input_file_hashes_checked": 2000,
+  "settings": {
+    "AttackVLM_B16": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 50523,
+      "saved_linf_min": 16,
+      "saved_linf_max": 16,
+      "bounded": true,
+      "reused_verified_count": 100,
+      "archive_sha256": "5ccc6f6f0dad4799c0b4eccb9993992be340c1a696dde00fc4393f95056ca261",
+      "zip_crc_and_member_bytes_pass": true
+    },
+    "AttackVLM_B32": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 51986,
+      "saved_linf_min": 16,
+      "saved_linf_max": 16,
+      "bounded": true,
+      "reused_verified_count": 100,
+      "archive_sha256": "c8335ae0dc89fd878920acf4e45136aaab5a715190c8bc8cee4765a9f6c39723",
+      "zip_crc_and_member_bytes_pass": true
+    },
+    "AttackVLM_Laion": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 48630,
+      "saved_linf_min": 16,
+      "saved_linf_max": 16,
+      "bounded": true,
+      "reused_verified_count": 100,
+      "archive_sha256": "45f1403ca6e449495df80751d1183420aa5e67cbb9613425f9111d150e6ba5f0",
+      "zip_crc_and_member_bytes_pass": true
+    },
+    "AdvDiffVLM_ensemble": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 129866,
+      "saved_linf_min": 113,
+      "saved_linf_max": 255,
+      "bounded": false,
+      "reused_verified_count": 100,
+      "archive_sha256": "7f7e9d1408e58543ef332abd1268ede5ac6a9d21d78087e2a8d04cd7e21a90dc",
+      "zip_crc_and_member_bytes_pass": true
+    },
+    "SSA-CWA_ensemble": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 108653,
+      "saved_linf_min": 16,
+      "saved_linf_max": 16,
+      "bounded": true,
+      "reused_verified_count": 100,
+      "archive_sha256": "59c95ff94a0ddc7ad4559bec51e31a1e3c85a597cbd19dbfd077f8ad9305c58c",
+      "zip_crc_and_member_bytes_pass": true
+    },
+    "AnyAttack_official_B32": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 98430,
+      "saved_linf_min": 16,
+      "saved_linf_max": 16,
+      "bounded": true,
+      "reused_verified_count": 100,
+      "archive_sha256": "514229b184f29e0d2ae10e3447e5341ff703af3e6ab805ed9e8d98dbd7eebc3c",
+      "zip_crc_and_member_bytes_pass": true
+    },
+    "M-Attack": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 87958,
+      "saved_linf_min": 16,
+      "saved_linf_max": 16,
+      "bounded": true,
+      "reused_verified_count": 100,
+      "archive_sha256": "7ce1d2dfc450d3b58d27e83813a35e21b0b7d08ec52664db468e2f77f22553db",
+      "zip_crc_and_member_bytes_pass": true,
+      "generation_sha_records": 1000,
+      "steps_300_in_record_count": 980,
+      "steps_300_in_run_config_only_count": 20
+    },
+    "M-Attack-V2": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 96872,
+      "saved_linf_min": 16,
+      "saved_linf_max": 16,
+      "bounded": true,
+      "reused_verified_count": 100,
+      "archive_sha256": "b296d55dc44a773466232a664cc8adcd32c6a6797cbd95b839ee8b6ba77090c6",
+      "zip_crc_and_member_bytes_pass": true,
+      "generation_sha_records": 1000,
+      "steps_300_in_record_count": 1000,
+      "steps_300_in_run_config_only_count": 0
+    },
+    "FOA-Attack/cluster_3": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 87585,
+      "saved_linf_min": 16,
+      "saved_linf_max": 16,
+      "bounded": true,
+      "reused_verified_count": 0,
+      "archive_sha256": "51e870eb4caaf01835243f9d86d47a739c94629a899c6ead22055d58cef82fb1",
+      "zip_crc_and_member_bytes_pass": true,
+      "native_generation_records": 1000
+    },
+    "FOA-Attack/cluster_5": {
+      "count": 1000,
+      "unique_sha256": 1000,
+      "duplicate_image_groups": 0,
+      "unchanged_source_ids": [],
+      "constant_image_ids": [],
+      "min_changed_channel_values": 88163,
+      "saved_linf_min": 16,
+      "saved_linf_max": 16,
+      "bounded": true,
+      "reused_verified_count": 0,
+      "archive_sha256": "14cb7ba92aded8d660d78b99c6f8ab6f1620ae5c51a7317d32069b98c33e2cfe",
+      "zip_crc_and_member_bytes_pass": true,
+      "native_generation_records": 1000
+    }
+  },
+  "retrieval": {
+    "target_hash_matches": 1000,
+    "valid_auxiliary_images": 2000,
+    "sources": {
+      "author-published precomputed COCO retrieval": 100,
+      "official COCO train2014, full82783 pool": 900
+    },
+    "independent_full_pool_reranking_performed_in_this_audit": false
+  },
+  "source_repositories": {
+    "AttackVLM": {
+      "commit": "06cc93be447f7ff7e112e3a5f6f047c32405bacd",
+      "tracked_changes": "",
+      "repository": "https://github.com/yunqing-me/AttackVLM.git"
+    },
+    "SSA-CWA": {
+      "commit": "dbac7e7e32844f440876b57e6c0d3bbb95040a80",
+      "tracked_changes": "",
+      "repository": "https://github.com/huanranchen/AdversarialAttacks.git"
+    },
+    "AnyAttack": {
+      "commit": "91b209120c61261a51a45ce217dae7f1daac081d",
+      "tracked_changes": "",
+      "repository": "https://github.com/jiamingzhang94/AnyAttack.git"
+    },
+    "M-Attack": {
+      "commit": "9e0cc64a22dff799fa84c12a4e51934d1e849e29",
+      "tracked_changes": "",
+      "repository": "https://github.com/VILA-Lab/M-Attack.git"
+    },
+    "M-Attack-V2": {
+      "commit": "8faca6d95e1caa190d676575489ab81bb31e4d03",
+      "tracked_changes": "",
+      "repository": "https://github.com/VILA-Lab/M-Attack-V2.git"
+    },
+    "AdvDiffVLM": {
+      "commit": "b9ea3ed4c58708ed1d1838618fccaa52a6eb57c9",
+      "tracked_changes": "",
+      "repository": "https://github.com/gq-max/AdvDiffVLM"
+    },
+    "FOA-Attack": {
+      "commit": "6aa9ad463a1e812b7f77ff2e5c4b1712e7c78c4b",
+      "tracked_changes": "",
+      "repository": "https://github.com/jiaxiaojunQAQ/FOA-Attack.git"
+    }
+  },
+  "native_foa_attack_function_ast_matches_recorded_run": true,
+  "passed": true,
+  "scope": "Independent file integrity, identity, saved pixel budget, archive bytes and available generation-record checks; not proof of unmodified end-to-end paper reproduction or black-box success."
+}

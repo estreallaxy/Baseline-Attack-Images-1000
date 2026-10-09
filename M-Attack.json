@@ -10,7 +10,101 @@
   "archive": "M-Attack.zip",
   "archive_sha256": "7ce1d2dfc450d3b58d27e83813a35e21b0b7d08ec52664db468e2f77f22553db",
   "max_linf_pixels": 16,
-  "protocol": {},
+  "protocol": {
+    "method": "M-Attack",
+    "surrogates": [
+      "B16",
+      "B32",
+      "Laion"
+    ],
+    "steps": 300,
+    "epsilon_pixel": 16,
+    "alpha": 1.0,
+    "seed": 2023,
+    "batch_size": 2,
+    "manifest_sha256": "dc8a67a5dc3121e0e684a3f273e40f97554873baf85daab244ec87ab40fe0739",
+    "official_git_sha": "9e0cc64a22dff799fa84c12a4e51934d1e849e29",
+    "source_crop_scale": [
+      0.5,
+      0.9
+    ],
+    "source_crop_change_iters": null,
+    "multi_pass_num": 1,
+    "target_num": 1,
+    "beta": null,
+    "retrieval": null,
+    "attack_source": "local cached resource (private path omitted)",
+    "queue": true,
+    "compatibility_fixes": [
+      "Transformers5 projected feature return container",
+      "preserve B,D feature shape for singleton batches"
+    ],
+    "safe_optimizations": [
+      "omit adv_features/global_sim/global_similarity assignments used only for logging; crop similarity exclusively drives the gradient"
+    ],
+    "compact_frozen_linear_conv_weights": false,
+    "worker_configs": [
+      {
+        "method": "M-Attack",
+        "surrogates": [
+          "B16",
+          "B32",
+          "Laion"
+        ],
+        "steps": 300,
+        "epsilon_pixel": 16,
+        "alpha": 1.0,
+        "seed": 2023,
+        "batch_size": 2,
+        "manifest_sha256": "dc8a67a5dc3121e0e684a3f273e40f97554873baf85daab244ec87ab40fe0739",
+        "official_git_sha": "9e0cc64a22dff799fa84c12a4e51934d1e849e29",
+        "source_crop_scale": [
+          0.5,
+          0.9
+        ],
+        "source_crop_change_iters": null,
+        "multi_pass_num": 1,
+        "target_num": 1,
+        "beta": null,
+        "retrieval": null,
+        "attack_source": "local cached resource (private path omitted)",
+        "queue": true,
+        "compatibility_fixes": [
+          "Transformers5 projected feature return container",
+          "preserve B,D feature shape for singleton batches"
+        ],
+        "safe_optimizations": [
+          "omit adv_features/global_sim/global_similarity assignments used only for logging; crop similarity exclusively drives the gradient"
+        ],
+        "compact_frozen_linear_conv_weights": false
+      }
+    ],
+    "reused_fixed100_run_config": {
+      "method": "M-Attack",
+      "surrogates": [
+        "B16",
+        "B32",
+        "Laion"
+      ],
+      "steps": 300,
+      "epsilon_pixel": 16,
+      "alpha": 1.0,
+      "seed": 2023,
+      "batch_size": 2,
+      "manifest_sha256": "b3a1fba10b45fcf707aa6d5619942cdd060af79ff4aa0e0b225997c983c44549",
+      "official_git_sha": "9e0cc64a22dff799fa84c12a4e51934d1e849e29",
+      "source_crop_scale": [
+        0.5,
+        0.9
+      ],
+      "source_crop_change_iters": null,
+      "multi_pass_num": 1,
+      "target_num": 1,
+      "beta": null,
+      "retrieval": null,
+      "attack_source": "local cached resource (private path omitted)"
+    }
+  },
   "images": [
     {
       "id": 0,

@@ -10,7 +10,233 @@
   "archive": "M-Attack-V2.zip",
   "archive_sha256": "b296d55dc44a773466232a664cc8adcd32c6a6797cbd95b839ee8b6ba77090c6",
   "max_linf_pixels": 16,
-  "protocol": {},
+  "protocol": {
+    "method": "M-Attack-V2",
+    "surrogates": [
+      "B16",
+      "B32",
+      "LaionB32",
+      "Laion"
+    ],
+    "steps": 300,
+    "epsilon_pixel": 16,
+    "alpha": 0.005,
+    "seed": 2023,
+    "batch_size": 2,
+    "manifest_sha256": "dc8a67a5dc3121e0e684a3f273e40f97554873baf85daab244ec87ab40fe0739",
+    "official_git_sha": "8faca6d95e1caa190d676575489ab81bb31e4d03",
+    "source_crop_scale": [
+      0.5,
+      1.0
+    ],
+    "source_crop_change_iters": [
+      40,
+      260
+    ],
+    "multi_pass_num": 10,
+    "target_num": 3,
+    "beta": 0.3,
+    "retrieval": "official CLIPB16 COCO train2014 top2",
+    "attack_source": "local cached resource (private path omitted)",
+    "queue": true,
+    "compatibility_fixes": [
+      "Transformers5 projected feature return container",
+      "preserve B,D feature shape for singleton batches"
+    ],
+    "safe_optimizations": [
+      "frozen Linear/Conv2d FP16 storage equals official AMP casting; LayerNorm and embeddings retain FP32; real B16 forward, target pooler, weighted loss and input-gradient bitwise proof passed"
+    ],
+    "compact_frozen_linear_conv_weights": true,
+    "worker_configs": [
+      {
+        "method": "M-Attack-V2",
+        "surrogates": [
+          "B16",
+          "B32",
+          "LaionB32",
+          "Laion"
+        ],
+        "steps": 300,
+        "epsilon_pixel": 16,
+        "alpha": 0.005,
+        "seed": 2023,
+        "batch_size": 2,
+        "manifest_sha256": "dc8a67a5dc3121e0e684a3f273e40f97554873baf85daab244ec87ab40fe0739",
+        "official_git_sha": "8faca6d95e1caa190d676575489ab81bb31e4d03",
+        "source_crop_scale": [
+          0.5,
+          1.0
+        ],
+        "source_crop_change_iters": [
+          40,
+          260
+        ],
+        "multi_pass_num": 10,
+        "target_num": 3,
+        "beta": 0.3,
+        "retrieval": "official CLIPB16 COCO train2014 top2",
+        "attack_source": "local cached resource (private path omitted)",
+        "queue": true,
+        "compatibility_fixes": [
+          "Transformers5 projected feature return container",
+          "preserve B,D feature shape for singleton batches"
+        ],
+        "safe_optimizations": [
+          "frozen Linear/Conv2d FP16 storage equals official AMP casting; LayerNorm and embeddings retain FP32; real B16 forward, target pooler, weighted loss and input-gradient bitwise proof passed"
+        ],
+        "compact_frozen_linear_conv_weights": true
+      },
+      {
+        "method": "M-Attack-V2",
+        "surrogates": [
+          "B16",
+          "B32",
+          "LaionB32",
+          "Laion"
+        ],
+        "steps": 300,
+        "epsilon_pixel": 16,
+        "alpha": 0.005,
+        "seed": 2023,
+        "batch_size": 2,
+        "manifest_sha256": "dc8a67a5dc3121e0e684a3f273e40f97554873baf85daab244ec87ab40fe0739",
+        "official_git_sha": "8faca6d95e1caa190d676575489ab81bb31e4d03",
+        "source_crop_scale": [
+          0.5,
+          1.0
+        ],
+        "source_crop_change_iters": [
+          40,
+          260
+        ],
+        "multi_pass_num": 10,
+        "target_num": 3,
+        "beta": 0.3,
+        "retrieval": "official CLIPB16 COCO train2014 top2",
+        "attack_source": "local cached resource (private path omitted)",
+        "queue": true,
+        "compatibility_fixes": [
+          "Transformers5 projected feature return container",
+          "preserve B,D feature shape for singleton batches"
+        ],
+        "safe_optimizations": [
+          "frozen Linear/Conv2d FP16 storage equals official AMP casting; LayerNorm and embeddings retain FP32; real B16 forward, target pooler, weighted loss and input-gradient bitwise proof passed"
+        ],
+        "compact_frozen_linear_conv_weights": true
+      },
+      {
+        "method": "M-Attack-V2",
+        "surrogates": [
+          "B16",
+          "B32",
+          "LaionB32",
+          "Laion"
+        ],
+        "steps": 300,
+        "epsilon_pixel": 16,
+        "alpha": 0.005,
+        "seed": 2023,
+        "batch_size": 2,
+        "manifest_sha256": "dc8a67a5dc3121e0e684a3f273e40f97554873baf85daab244ec87ab40fe0739",
+        "official_git_sha": "8faca6d95e1caa190d676575489ab81bb31e4d03",
+        "source_crop_scale": [
+          0.5,
+          1.0
+        ],
+        "source_crop_change_iters": [
+          40,
+          260
+        ],
+        "multi_pass_num": 10,
+        "target_num": 3,
+        "beta": 0.3,
+        "retrieval": "official CLIPB16 COCO train2014 top2",
+        "attack_source": "local cached resource (private path omitted)",
+        "queue": true,
+        "compatibility_fixes": [
+          "Transformers5 projected feature return container",
+          "preserve B,D feature shape for singleton batches"
+        ],
+        "safe_optimizations": [
+          "frozen Linear/Conv2d FP16 storage equals official AMP casting; LayerNorm and embeddings retain FP32; real B16 forward, target pooler, weighted loss and input-gradient bitwise proof passed"
+        ],
+        "compact_frozen_linear_conv_weights": true
+      },
+      {
+        "method": "M-Attack-V2",
+        "surrogates": [
+          "B16",
+          "B32",
+          "LaionB32",
+          "Laion"
+        ],
+        "steps": 300,
+        "epsilon_pixel": 16,
+        "alpha": 0.005,
+        "seed": 2023,
+        "batch_size": 2,
+        "manifest_sha256": "dc8a67a5dc3121e0e684a3f273e40f97554873baf85daab244ec87ab40fe0739",
+        "official_git_sha": "8faca6d95e1caa190d676575489ab81bb31e4d03",
+        "source_crop_scale": [
+          0.5,
+          1.0
+        ],
+        "source_crop_change_iters": [
+          40,
+          260
+        ],
+        "multi_pass_num": 10,
+        "target_num": 3,
+        "beta": 0.3,
+        "retrieval": "official CLIPB16 COCO train2014 top2",
+        "attack_source": "local cached resource (private path omitted)",
+        "queue": true,
+        "compatibility_fixes": [
+          "Transformers5 projected feature return container",
+          "preserve B,D feature shape for singleton batches"
+        ],
+        "safe_optimizations": [
+          "frozen Linear/Conv2d FP16 storage equals official AMP casting; LayerNorm and embeddings retain FP32; real B16 forward, target pooler, weighted loss and input-gradient bitwise proof passed"
+        ],
+        "compact_frozen_linear_conv_weights": true
+      }
+    ],
+    "reused_fixed100_run_config": {
+      "method": "M-Attack-V2",
+      "surrogates": [
+        "B16",
+        "B32",
+        "LaionB32",
+        "Laion"
+      ],
+      "steps": 300,
+      "epsilon_pixel": 16,
+      "alpha": 0.005,
+      "seed": 2023,
+      "batch_size": 4,
+      "manifest_sha256": "b3a1fba10b45fcf707aa6d5619942cdd060af79ff4aa0e0b225997c983c44549",
+      "official_git_sha": "8faca6d95e1caa190d676575489ab81bb31e4d03",
+      "source_crop_scale": [
+        0.5,
+        1.0
+      ],
+      "source_crop_change_iters": [
+        150,
+        275
+      ],
+      "multi_pass_num": 10,
+      "target_num": 3,
+      "beta": 0.3,
+      "retrieval": "official CLIPB16 COCO train2014 top2",
+      "attack_source": "local cached resource (private path omitted)",
+      "queue": true,
+      "compatibility_fixes": [
+        "Transformers5 projected feature return container",
+        "preserve B,D feature shape for singleton batches"
+      ]
+    },
+    "audit_note": "The fixed-100 run metadata records crop transition iterations [150,275], whereas full-run worker configs record [40,260]. All three source crop transforms have identical scale [0.5,1.0], so switching between these transform instances does not change the crop distribution. Batch size and parallel RNG ordering differ; bitwise rerun equivalence is not claimed. Compact-weight numerical validation covered B16 only."
+  },
   "images": [
     {
       "id": 0,

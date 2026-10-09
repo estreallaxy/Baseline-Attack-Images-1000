@@ -2,7 +2,7 @@
 
 Comparison baseline images for numeric source/target pairs **0–999**. Previously verified fixed-100 images (IDs 0, 10, …, 990) are reused for the other baselines; FOA is regenerated using the freshly cloned author repository.
 
-**All baseline image collections are complete and verified.** A method archive is published only after all 1,000 images pass validation. See [status.json](status.json) for the recorded snapshot. Existing counts for incomplete methods are not completion claims.
+**All 10 image collections are complete and pass file-integrity checks.** The independent audit checks all 10,000 PNGs and their archives. This establishes image completeness and recorded input identity; it does not establish unchanged reproduction of every original paper protocol. See [reproduction audit](REPRODUCTION_AUDIT.md), [machine-readable audit](integrity_audit.json), and [status.json](status.json).
 
 | Method / setting | Required images | Published archive |
 | --- | ---: | --- |
@@ -21,7 +21,7 @@ Comparison baseline images for numeric source/target pairs **0–999**. Previous
 
 Full PNG collections are stored as ZIP assets in [GitHub Releases](https://github.com/estreallaxy/Baseline-Attack-Images-1000/releases/tag/baselines-1000-v1). Each archive contains `<setting>/<id>.png`. Match the numeric ID to the corresponding source and target hashes in [input_manifest.json](input_manifest.json). The source and target datasets, model weights, credentials, and private experiment files are not included.
 
-Each completed setting has a JSON manifest containing the SHA-256 of every PNG, the archive checksum, and its protocol. Verify a downloaded archive with `sha256sum <archive>.zip` (PowerShell: `Get-FileHash <archive>.zip -Algorithm SHA256`). Images are RGB, 224 × 224. Bounded attacks use epsilon 16/255; saved PNG validation allows at most one quantization level. AdvDiffVLM follows its natural unrestricted diffusion protocol and is not described as a bounded attack.
+Each completed setting has a JSON manifest containing the SHA-256 of every PNG, the archive checksum, and its protocol. Verify a downloaded archive with `sha256sum <archive>.zip` (PowerShell: `Get-FileHash <archive>.zip -Algorithm SHA256`). Images are RGB, 224 × 224. Bounded attacks use epsilon 16/255; the independent audit confirms every saved PNG is within exactly 16 pixel levels of its preprocessed source. AdvDiffVLM follows its natural unrestricted diffusion protocol and is not described as a bounded attack.
 
 ## Upstream methods and protocol notes
 
